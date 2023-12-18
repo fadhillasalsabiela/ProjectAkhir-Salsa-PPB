@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailLuarSumateraActivity">
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId" />
+
+
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back1"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/abu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsextra"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:text="GUNUNG BROMO"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:lineSpacingMultiplier="1.1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="391dp"
+        android:layout_height="420dp"
+        android:layout_below="@id/tab1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/primaryColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="387dp"
+            android:layout_below="@id/text2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center_horizontal"
+            android:lineSpacingMultiplier="1.1"
+            android:text="Gunung Bromo terletak di Kabupaten Probolinggo. Gunung Bromo memiliki ketinggian sekitar 2392 mdpl. Memiliki kawah yang menjadi objek utama yang sering dikunjungi oleh wisatawan asing maupun lokal. Untuk sampai di bibir kawah, para wisatawan harus menaiki tangga yang cukup panjang."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

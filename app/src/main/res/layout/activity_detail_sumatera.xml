@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailSumateractivity">
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="InvalidId" />
+
+
+    <LinearLayout
+        android:id="@+id/tab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back1"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/abu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppinsextra"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:text="GUNUNG TALANG"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:lineSpacingMultiplier="1.1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="391dp"
+        android:layout_height="420dp"
+        android:layout_below="@id/tab1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/primaryColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="387dp"
+            android:layout_below="@id/text2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center_horizontal"
+            android:lineSpacingMultiplier="1.1"
+            android:text="Gunung Talang (nama lainnya Salasi atau Sulasi) merupakan gunung berapi yang terletak terletak di kabupaten Solok, provinsi Sumatera Barat, Indonesia.
+Gunung Talang berlokasi sekitar 9 km dari kota Arosuka ibu kota kabupaten Solok, dan sekitar 40 km sebelah timur kota Padang.
+Gunung ini bertipe stratovolcano dengan ketinggian 2.597 m, merupakan salah satu dari gunung api aktif di Sumatera Barat, dan salah satu kawahnya menjadi sebuah danau yang disebut dengan Danau Talang. Gunung Talang sudah pernah meletus berkali-kali sejak tahun 1833 sampai dengan tahun 2007"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
